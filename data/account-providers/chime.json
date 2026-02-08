@@ -7,7 +7,7 @@
     "challenger"
   ],
   "name": "chime",
-  "legalName": "Chime Banking",
+  "legalName": "chime banking ",
   "ipoStatus": "private",
   "stockSymbol": null,
   "verified": false,
@@ -22,7 +22,7 @@
   ],
   "compliance": [],
   "sandbox": {
-    "status": "unavailable"
+    "status": "available"
   },
   "developerPortalUrl": null,
   "developerCommunityUrl": null,
@@ -43,7 +43,7 @@
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios",
+      "operatingSystem": "Android",
       "storeUrl": "https://apps.apple.com/us/app/chime-mobile-banking/id836215269"
     },
     {
@@ -89,7 +89,7 @@
         "source": {
           "url": "https://techcrunch.com/2019/07/16/learn-how-to-change-banking-one-dollar-at-a-time-at-disrupt-sf/",
           "date": "2018-07-16",
-          "verified": false
+          "verified": true
         }
       },
       {
@@ -127,9 +127,9 @@
   "products": {
     "currentAccounts": {
       "personalAccount": true,
-      "jointAccount": false,
+      "jointAccount": true,
       "euroAccount": false,
-      "teenAccount": false
+      "teenAccount": true
     },
     "businessCurrentAccount": false,
     "loans": {},
